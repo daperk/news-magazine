@@ -1,0 +1,83 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; /* Light background color */
+    color: #333; /* Default text color */
+  }
+  
+  /* Navbar styles */
+  .navbar-custom {
+    background-color: #333; /* Dark background color */
+  }
+  
+  .navbar-custom .navbar-brand {
+    font-size: 1.5rem; /* Larger font size for the brand */
+  }
+  
+  .navbar-custom .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* Lighter border color for the toggler */
+  }
+  
+  .navbar-custom .nav-link {
+    color: #fff; /* White text color */
+    cursor: pointer; /* Pointer cursor for better usability */
+    margin-left: 10px; /* Space between links */
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #a1a1a1; /* Lighter text color on hover */
+  }
+  
+  .navbar-custom .collapse.navbar-collapse {
+    justify-content: flex-end; /* Align links to the right */
+  }
+  
+  .navbar-custom .navbar-nav .nav-item {
+    padding: 8px; /* Padding around each nav item */
+  }
+  
+  /* NewsItem styles */
+  .news-item {
+    background-color: #fff; /* White background for each news item */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-bottom: 20px; /* Space between news items */
+    padding: 20px; /* Padding inside news item */
+  }
+  
+  .news-item img {
+    max-width: 100%; /* Responsive images */
+    border-radius: 8px; /* Rounded corners for images */
+    margin-bottom: 10px; /* Space below image */
+  }
+  
+  .news-item .card-title {
+    font-size: 1.2rem; /* Larger font size for title */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 10px; /* Space below title */
+  }
+  
+  .news-item .card-text {
+    color: #666; /* Subdued text color */
+    line-height: 1.5; /* Line height for readability */
+  }
+  
+  .news-item .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    padding: 8px 16px; /* Padding inside button */
+    margin-top: 10px; /* Space above button */
+  }
+  
+  .news-item .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

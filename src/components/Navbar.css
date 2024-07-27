@@ -1,0 +1,48 @@
+/* Navbar styles */
+.navbar-custom {
+    background-color: #333; /* Dark background color */
+    padding: 10px 20px; /* Padding inside the navbar */
+  }
+  
+  .navbar-custom .navbar-brand {
+    font-size: 1.5rem; /* Larger font size for the brand */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from brand link */
+  }
+  
+  .navbar-custom .navbar-brand:hover {
+    color: #a1a1a1; /* Lighter text color on hover */
+  }
+  
+  .navbar-custom .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* Lighter border color for the toggler */
+  }
+  
+  .navbar-custom .navbar-toggler-icon {
+    color: #fff; /* White color for the toggler icon */
+  }
+  
+  .navbar-custom .navbar-toggler:hover {
+    border-color: rgba(255, 255, 255, 0.7); /* Darker border color on hover */
+  }
+  
+  .navbar-custom .navbar-nav .nav-item {
+    padding: 8px; /* Padding around each nav item */
+  }
+  
+  .navbar-custom .nav-link {
+    color: #fff; /* White text color */
+    cursor: pointer; /* Pointer cursor for better usability */
+    margin-left: 15px; /* Space between links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.2s; /* Smooth color transition */
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #a1a1a1; /* Lighter text color on hover */
+  }
+  
+  .navbar-custom .collapse.navbar-collapse {
+    justify-content: flex-end; /* Align links to the right */
+  }
+  
